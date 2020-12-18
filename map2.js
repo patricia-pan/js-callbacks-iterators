@@ -47,7 +47,8 @@ console.log(phoneBookMap) */
 // Your code here
 const splicer = (object, i) => {
   let key = Object.keys(object) // How to get the keys of an object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-  object[key] = '1-' + object[key]
+  let char = object[key].charAt(0)
+  object[key] = char + '-' + object[key]
   return object
 }
 
