@@ -9,3 +9,6 @@
 var foods = ["pizza", "tacos", "ice cream", "sushi"];
 
 // your code here
+const foodsForEach = foods.forEach( (food) => {
+    console.log(`I like ${food}`)
+})
