@@ -30,6 +30,20 @@ var phoneBook = [
 // Take the phonebook above and use map to return a new phonebook that includes a country-code that matches the rest of the phone number.
 // For example, the 0th element of the new array should be {Abe: "1-111-111-1111"}
 
+
+// Below is the code that I screen shared with my classmates and shared in the Slack channel.
+/* const splicer = (object, i) => {
+  let key = Object.keys(object); // Abe. // How to get the keys of an object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+  let value = object[key]; // Abe's number
+  let newValue = '1-' + value; // Abe's international number
+  object[key] = newValue;
+  return object
+}
+
+const phoneBookMap = phoneBook.map(splicer)
+console.log(phoneBookMap) */
+
+
 // Your code here
 const splicer = (object, i) => {
   let key = Object.keys(object) // How to get the keys of an object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
