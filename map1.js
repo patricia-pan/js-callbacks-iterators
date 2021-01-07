@@ -5,6 +5,8 @@ var mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please E
 // ['My', 'Very', 'Excellent', 'Mother', 'Just', 'Sent', 'Me', 'Nine', 'Pizzas']
 
 // Your code here!
+// Map returns an array.
+// A more specific/defined version of forEach in that instead of doing the same thing for each element in an array, you return an array of what happens after you do the same function to each element.
 
 const split = (string) => {
     return string.split(' ')

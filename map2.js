@@ -45,6 +45,9 @@ console.log(phoneBookMap) */
 
 
 // Your code here
+// Map returns an array.
+// A more specific/defined version of forEach in that instead of doing the same thing for each element in an array, you return an array of what happens after you do the same function to each element.
+
 const splicer = (object, i) => {
   let key = Object.keys(object) // How to get the keys of an object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
   let char = object[key].charAt(0)
